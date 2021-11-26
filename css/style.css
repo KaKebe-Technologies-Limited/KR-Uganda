@@ -3,9 +3,34 @@ html {
   overflow-x: hidden; }
   .teamDiv div{
     margin: 10px;
+    display: flex;
+    justify-content: center;
   }
-  
+  .team div{
+    margin: 0.0px;
 
+  }
+  .center-align{
+    display: flex;
+    justify-content: center;
+  }
+.raw{
+  border-style: groove;
+  border-width: thin;
+  /* border-bottom-color: #c6cbd6; */
+  background-color: none;
+  padding: 0px;
+  margin-bottom: 3%;
+}
+.colordiv{
+  background-color: #ffffff;
+}
+.dona{
+  background-color: #1E66B1 !important;
+}
+.protect{
+  margin-top: auto;
+}
 .font-size-10 {
   font-size: 10px; }
 
@@ -181,7 +206,7 @@ html {
   border-width: 5px; }
 
 .primary-black--hover {
-  background: #00a651;
+  background: #1E66B1;
   color: #fff; }
   .primary-black--hover:hover {
     background: #000;
@@ -294,7 +319,7 @@ h1, h2, h3, h4, h5,
   background: #000; }
 
 .form-control:active, .form-control:focus {
-  border-color: #00a651; }
+  border-color: #1E66B1; }
 
 .form-control:hover, .form-control:active, .form-control:focus {
   -webkit-box-shadow: none !important;
@@ -379,7 +404,8 @@ h1, h2, h3, h4, h5,
       bottom: 0;
       z-index: 0;
       width: 100%;
-      background: rgba(33, 50, 59, 0.9); }
+      background: #1E66B1;
+     }
   .bg-image.overlay-primary {
     position: relative; }
     .bg-image.overlay-primary:after {
@@ -391,7 +417,7 @@ h1, h2, h3, h4, h5,
       bottom: 0;
       z-index: 0;
       width: 100%;
-      background: rgba(0, 166, 81, 0.9); }
+      background:#1E66B1 ; }
   .bg-image > .container {
     position: relative;
     z-index: 1; 
@@ -519,9 +545,9 @@ h1, h2, h3, h4, h5,
         display: inline-block;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
-          color: #00a651; }
+          color: #1E66B1; }
       .site-navbar .site-navigation .site-menu > li.active > a {
-        color: #00a651 !important; }
+        color: #000000 !important; }
     .site-navbar .site-navigation .site-menu .has-children {
       position: relative; }
       .site-navbar .site-navigation .site-menu .has-children > a {
@@ -1377,8 +1403,10 @@ h1, h2, h3, h4, h5,
     color: #00a651; }
 
 .bg-light {
-  background-color: #f6f5f5 !important; }
-
+  background-color: #1E66B1 !important; }
+.dona1{
+  color: #1E66B1;
+}
 .feature-1 {
   background: #ccc;
   position: relative;
